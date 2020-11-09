@@ -1,8 +1,11 @@
-class AreaCircle
+package com.company;
+java.util.Scanner;
+Public class Main
 {
 public static void main(String []args)
 {
-double rad=254.6;
+  Scanner sc = new Scanner(System.in);
+double rad=sc.nextDouble();
 double pi=22.0/7;
 
 int area=(int)(pi*((rad*rad)/(100*100)));
